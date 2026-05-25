@@ -103,14 +103,6 @@ The original project repository is maintained by the mentor, and interns contrib
 
 ---
 
-## ⭐ Future Scope
-
-* Build a recommendation system for screen time optimization
-* Develop a dashboard for real-time tracking
-* Integrate machine learning models for behavior prediction
-
----
-
 ## 🙌 Acknowledgment
 
 This project was completed as part of the Infosys Springboard Internship Program.
