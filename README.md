@@ -1,110 +1,148 @@
-# ScreenSense – User Screen Time Behavior Analysis
-
-**Infosys Springboard Internship Project**
-
----
+# ScreenSense – Screen Time Recommendation System
 
 ## 📌 Overview
 
-ScreenSense is a data analysis project developed during the Infosys Springboard Internship. The project focuses on analyzing user screen time patterns to understand digital behavior, identify overuse trends, and generate meaningful insights.
+ScreenSense is a Python-based application that analyzes user screen time behavior and provides personalized recommendations to encourage healthier digital habits. The project combines data analysis, a recommendation engine, and an interactive interface to help users better understand and manage their screen usage.
 
-The goal is to transform raw screen usage data into actionable insights that can help in improving digital well-being and user productivity.
+The application demonstrates data preprocessing, recommendation logic implementation, behavioral analysis, and interactive visualization.
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze screen time usage patterns across users
-* Identify excessive usage and unhealthy digital habits
-* Generate insights for better time management
-* Understand behavioral trends in app usage
+- Analyze user screen time behavior
+- Generate personalized screen time recommendations
+- Identify excessive usage patterns
+- Build a modular recommendation system
+- Present insights through an interactive web interface
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tech Stack
 
-* Python
-* Jupyter Notebook
-* Pandas
-* NumPy
-* Matplotlib / Seaborn
+### Programming Language
+- Python
+
+### Libraries
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### Application Framework
+- Streamlit
+
+### Development Tools
+- Git
+- GitHub
+- Jupyter Notebook
 
 ---
 
 ## 📂 Project Structure
 
 ```
-ScreenSense-Intern-Anavi/
+ScreenSense/
 │
-├── notebooks/        # Jupyter notebooks for analysis
-├── data/             # Dataset used (if included)
-├── outputs/          # Visualizations / results
+├── streamlit_app.py
+├── recommender.py
+├── report_generator.py
+├── Screen_Time_Recommendation_System.ipynb
+├── Indian_Kids_Screen_Time_Cleaned.csv
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 📊 Key Analysis Performed
+## 🚀 Features
 
-* Data cleaning and preprocessing
-* Exploratory Data Analysis (EDA)
-* Screen time distribution analysis
-* App usage pattern analysis
-* Identification of peak usage hours
-* Behavioral segmentation of users
-
----
-
-## 🔍 Key Insights
-
-* Users show peak screen usage during evening hours, indicating post-work or leisure-time engagement
-* A small group of users contributes disproportionately to total screen time, highlighting potential overuse
-* Social and entertainment apps dominate overall usage patterns
-* Irregular usage patterns correlate with higher total screen time
-* Consistent daily usage patterns are associated with better screen time control
+- Personalized screen time recommendation system
+- Interactive Streamlit application
+- Automated report generation
+- Data preprocessing and validation
+- Screen time trend analysis
+- Age-wise and device-wise recommendations
+- Behavioral segmentation
+- Interactive visualizations
 
 ---
 
-## 💡 Impact
+## ⚙️ Recommendation Engine
 
-This project demonstrates how user-level data can be leveraged to:
+The recommendation engine analyzes multiple user attributes, including:
 
-* Promote digital well-being
-* Support habit tracking applications
-* Provide insights for app developers and product teams
-* Enable personalized screen time recommendations
+- Age
+- Daily screen time
+- Primary device
+- Educational vs Recreational screen time ratio
+- Healthy screen time benchmarks
 
----
-
-## 🔗 Original Repository
-
-This work was originally developed as part of a collaborative project:
-https://github.com/springboardmentor987p/ScreenSense
-
-🔹 Individual contribution was maintained in the branch:
-`Intern-Anavi`
+Based on these factors, the application generates personalized recommendations to promote balanced digital habits.
 
 ---
 
-## 👩‍💻 My Contribution
+## 📊 Data Processing
 
-* Performed end-to-end data analysis on screen time dataset
-* Cleaned and structured raw data for analysis
-* Generated visual insights using Python
-* Identified behavioral patterns and usage trends
-* Documented findings for interpretation
+The project performs:
 
----
-
-## 📌 Note
-
-This repository contains my individual work submitted during the internship.
-The original project repository is maintained by the mentor, and interns contributed via separate branches.
+- Data Cleaning
+- Missing Value Handling
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Behavioral Segmentation
+- Statistical Analysis
 
 ---
 
-## 🙌 Acknowledgment
+## 📈 Key Insights
 
-This project was completed as part of the Infosys Springboard Internship Program.
+- Screen time varies significantly across different age groups and primary devices.
+- Users exceeding recommended screen time limits exhibit distinct behavioral patterns.
+- Educational-to-recreational screen time ratio provides valuable insight into healthy digital habits.
+- Personalized recommendations offer more meaningful guidance than fixed screen time limits.
 
 ---
+
+## 💡 Application Workflow
+
+1. User enters screen time details.
+2. The recommendation engine processes the input.
+3. User behavior is compared with healthy usage benchmarks.
+4. Personalized recommendations are generated.
+5. Reports and visualizations are displayed through the Streamlit interface.
+
+---
+
+## 🎯 Outcomes
+
+- Built an interactive screen time recommendation application using Python.
+- Developed a modular recommendation engine for personalized recommendations.
+- Automated report generation based on user inputs.
+- Processed and analyzed behavioral data to generate meaningful insights.
+- Created an intuitive interface for user interaction and visualization.
+
+---
+
+## 🔮 Future Enhancements
+
+- User authentication
+- Database integration
+- Cloud deployment
+- Mobile application
+- Real-time analytics dashboard
+- Enhanced recommendation algorithms
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Data Analysis
+- Recommendation Systems
+- Exploratory Data Analysis
+- Data Visualization
+- Git & GitHub
